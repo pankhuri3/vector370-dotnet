@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30723.0
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{A77A3FF9-3554-4F44-ADC3-643013E54826}"
 EndProject
@@ -51,57 +51,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContentExample", "Examples\
 		{EF4C4AD8-BF25-4DB6-A5B1-D5195B18FD14} = {EF4C4AD8-BF25-4DB6-A5B1-D5195B18FD14}
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{E7994D84-7DC0-466A-A71D-60127C9FDF1E}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+		README.txt = README.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A2E27A1B-75B2-4DCF-9DC9-043DB8AC2316}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
 Global
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 12
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = http://192.168.10.153:8080/tfs/370
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = Libraries\\ThreeSeventy.Vector.Client\\ThreeSeventy.Vector.Client.csproj
-		SccProjectTopLevelParentUniqueName1 = ThreeSeventy.Vector.Client.sln
-		SccProjectName1 = Libraries/ThreeSeventy.Vector.Client
-		SccLocalPath1 = Libraries\\ThreeSeventy.Vector.Client
-		SccProjectUniqueName2 = Examples\\Common\\ContactExample\\ContactExample.csproj
-		SccProjectTopLevelParentUniqueName2 = ThreeSeventy.Vector.Client.sln
-		SccProjectName2 = Examples/Common/ContactExample
-		SccLocalPath2 = Examples\\Common\\ContactExample
-		SccProjectUniqueName3 = Examples\\Setup\\SetupCampaign\\SetupCampaign.csproj
-		SccProjectTopLevelParentUniqueName3 = ThreeSeventy.Vector.Client.sln
-		SccProjectName3 = Examples/Setup/SetupCampaign
-		SccLocalPath3 = Examples\\Setup\\SetupCampaign
-		SccProjectUniqueName4 = Examples\\Setup\\SetupKeyword\\SetupKeyword.csproj
-		SccProjectTopLevelParentUniqueName4 = ThreeSeventy.Vector.Client.sln
-		SccProjectName4 = Examples/Setup/SetupKeyword
-		SccLocalPath4 = Examples\\Setup\\SetupKeyword
-		SccProjectUniqueName5 = Examples\\Common\\PushExample\\PushExample.csproj
-		SccProjectTopLevelParentUniqueName5 = ThreeSeventy.Vector.Client.sln
-		SccProjectName5 = Examples/Common/PushExample
-		SccLocalPath5 = Examples\\Common\\PushExample
-		SccProjectUniqueName6 = Tests\\ThreeSeventy.Vector.Client.Tests\\ThreeSeventy.Vector.Client.Tests.csproj
-		SccProjectTopLevelParentUniqueName6 = ThreeSeventy.Vector.Client.sln
-		SccProjectName6 = Tests/ThreeSeventy.Vector.Client.Tests
-		SccLocalPath6 = Tests\\ThreeSeventy.Vector.Client.Tests
-		SccProjectUniqueName7 = Examples\\Common\\KeywordAttachExample\\KeywordAttachExample.csproj
-		SccProjectTopLevelParentUniqueName7 = ThreeSeventy.Vector.Client.sln
-		SccProjectName7 = Examples/Common/KeywordAttachExample
-		SccLocalPath7 = Examples\\Common\\KeywordAttachExample
-		SccProjectUniqueName8 = Examples\\Common\\CallbackReceiver\\CallbackReceiver.csproj
-		SccProjectTopLevelParentUniqueName8 = ThreeSeventy.Vector.Client.sln
-		SccProjectName8 = Examples/Common/CallbackReceiver
-		SccLocalPath8 = Examples\\Common\\CallbackReceiver
-		SccProjectUniqueName9 = Examples\\Setup\\SetupCallback\\SetupCallback.csproj
-		SccProjectTopLevelParentUniqueName9 = ThreeSeventy.Vector.Client.sln
-		SccProjectName9 = Examples/Setup/SetupCallback
-		SccLocalPath9 = Examples\\Setup\\SetupCallback
-		SccProjectUniqueName10 = Examples\\Common\\AccountExample\\AccountExample.csproj
-		SccProjectTopLevelParentUniqueName10 = ThreeSeventy.Vector.Client.sln
-		SccProjectName10 = Examples/Common/AccountExample
-		SccLocalPath10 = Examples\\Common\\AccountExample
-		SccProjectUniqueName11 = Examples\\Common\\ContentExample\\ContentExample.csproj
-		SccProjectTopLevelParentUniqueName11 = ThreeSeventy.Vector.Client.sln
-		SccProjectName11 = Examples/Common/ContentExample
-		SccLocalPath11 = Examples\\Common\\ContentExample
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
