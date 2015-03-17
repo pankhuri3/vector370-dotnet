@@ -1,0 +1,173 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{A77A3FF9-3554-4F44-ADC3-643013E54826}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{D4F7C3FA-F37C-4948-97F8-512E562A65D6}"
+	ProjectSection(SolutionItems) = preProject
+		README.txt = README.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreeSeventy.Vector.Client", "Libraries\ThreeSeventy.Vector.Client\ThreeSeventy.Vector.Client.csproj", "{EF4C4AD8-BF25-4DB6-A5B1-D5195B18FD14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SetupKeyword", "Examples\Setup\SetupKeyword\SetupKeyword.csproj", "{01DF094C-4F88-4FB3-939B-F46907FF0FE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PushExample", "Examples\Common\PushExample\PushExample.csproj", "{26E7643B-4E5C-4B5D-87AA-C5C26B66A46A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactExample", "Examples\Common\ContactExample\ContactExample.csproj", "{4F501F12-9F5A-4992-86B9-A2F6233AAB2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SetupCampaign", "Examples\Setup\SetupCampaign\SetupCampaign.csproj", "{3A78D502-C47D-4F82-BCEF-A755E4E34FC4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Setup", "Setup", "{A3CB63F8-5556-44A2-826B-1663B9E3C2D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{242998F7-2694-42E0-9A22-7036CCBC8C5D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit Tests", "Unit Tests", "{98E4713C-3482-43FA-B56D-583E47D9F9F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreeSeventy.Vector.Client.Tests", "Tests\ThreeSeventy.Vector.Client.Tests\ThreeSeventy.Vector.Client.Tests.csproj", "{890DB50B-646E-41B1-B9EA-825D91E34CAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeywordAttachExample", "Examples\Common\KeywordAttachExample\KeywordAttachExample.csproj", "{8C4B5DA9-5F67-4888-B216-F23C09C56A7A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{D33C5C90-F331-440E-ABB2-AA7A620B3C9F}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CallbackReceiver", "Examples\Common\CallbackReceiver\CallbackReceiver.csproj", "{A5B1BD10-C225-47BC-835F-8BD5883CB9CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SetupCallback", "Examples\Setup\SetupCallback\SetupCallback.csproj", "{415EF20E-7B1B-481F-A357-3C55A59DF4B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountExample", "Examples\Common\AccountExample\AccountExample.csproj", "{52595A45-09E5-482C-A5DF-4B31AAAA7B3A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EF4C4AD8-BF25-4DB6-A5B1-D5195B18FD14} = {EF4C4AD8-BF25-4DB6-A5B1-D5195B18FD14}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContentExample", "Examples\Common\ContentExample\ContentExample.csproj", "{1CAC46C2-440C-466E-83FC-C1E9CB644591}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EF4C4AD8-BF25-4DB6-A5B1-D5195B18FD14} = {EF4C4AD8-BF25-4DB6-A5B1-D5195B18FD14}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 12
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://192.168.10.153:8080/tfs/370
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Libraries\\ThreeSeventy.Vector.Client\\ThreeSeventy.Vector.Client.csproj
+		SccProjectTopLevelParentUniqueName1 = ThreeSeventy.Vector.Client.sln
+		SccProjectName1 = Libraries/ThreeSeventy.Vector.Client
+		SccLocalPath1 = Libraries\\ThreeSeventy.Vector.Client
+		SccProjectUniqueName2 = Examples\\Common\\ContactExample\\ContactExample.csproj
+		SccProjectTopLevelParentUniqueName2 = ThreeSeventy.Vector.Client.sln
+		SccProjectName2 = Examples/Common/ContactExample
+		SccLocalPath2 = Examples\\Common\\ContactExample
+		SccProjectUniqueName3 = Examples\\Setup\\SetupCampaign\\SetupCampaign.csproj
+		SccProjectTopLevelParentUniqueName3 = ThreeSeventy.Vector.Client.sln
+		SccProjectName3 = Examples/Setup/SetupCampaign
+		SccLocalPath3 = Examples\\Setup\\SetupCampaign
+		SccProjectUniqueName4 = Examples\\Setup\\SetupKeyword\\SetupKeyword.csproj
+		SccProjectTopLevelParentUniqueName4 = ThreeSeventy.Vector.Client.sln
+		SccProjectName4 = Examples/Setup/SetupKeyword
+		SccLocalPath4 = Examples\\Setup\\SetupKeyword
+		SccProjectUniqueName5 = Examples\\Common\\PushExample\\PushExample.csproj
+		SccProjectTopLevelParentUniqueName5 = ThreeSeventy.Vector.Client.sln
+		SccProjectName5 = Examples/Common/PushExample
+		SccLocalPath5 = Examples\\Common\\PushExample
+		SccProjectUniqueName6 = Tests\\ThreeSeventy.Vector.Client.Tests\\ThreeSeventy.Vector.Client.Tests.csproj
+		SccProjectTopLevelParentUniqueName6 = ThreeSeventy.Vector.Client.sln
+		SccProjectName6 = Tests/ThreeSeventy.Vector.Client.Tests
+		SccLocalPath6 = Tests\\ThreeSeventy.Vector.Client.Tests
+		SccProjectUniqueName7 = Examples\\Common\\KeywordAttachExample\\KeywordAttachExample.csproj
+		SccProjectTopLevelParentUniqueName7 = ThreeSeventy.Vector.Client.sln
+		SccProjectName7 = Examples/Common/KeywordAttachExample
+		SccLocalPath7 = Examples\\Common\\KeywordAttachExample
+		SccProjectUniqueName8 = Examples\\Common\\CallbackReceiver\\CallbackReceiver.csproj
+		SccProjectTopLevelParentUniqueName8 = ThreeSeventy.Vector.Client.sln
+		SccProjectName8 = Examples/Common/CallbackReceiver
+		SccLocalPath8 = Examples\\Common\\CallbackReceiver
+		SccProjectUniqueName9 = Examples\\Setup\\SetupCallback\\SetupCallback.csproj
+		SccProjectTopLevelParentUniqueName9 = ThreeSeventy.Vector.Client.sln
+		SccProjectName9 = Examples/Setup/SetupCallback
+		SccLocalPath9 = Examples\\Setup\\SetupCallback
+		SccProjectUniqueName10 = Examples\\Common\\AccountExample\\AccountExample.csproj
+		SccProjectTopLevelParentUniqueName10 = ThreeSeventy.Vector.Client.sln
+		SccProjectName10 = Examples/Common/AccountExample
+		SccLocalPath10 = Examples\\Common\\AccountExample
+		SccProjectUniqueName11 = Examples\\Common\\ContentExample\\ContentExample.csproj
+		SccProjectTopLevelParentUniqueName11 = ThreeSeventy.Vector.Client.sln
+		SccProjectName11 = Examples/Common/ContentExample
+		SccLocalPath11 = Examples\\Common\\ContentExample
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF4C4AD8-BF25-4DB6-A5B1-D5195B18FD14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF4C4AD8-BF25-4DB6-A5B1-D5195B18FD14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF4C4AD8-BF25-4DB6-A5B1-D5195B18FD14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF4C4AD8-BF25-4DB6-A5B1-D5195B18FD14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01DF094C-4F88-4FB3-939B-F46907FF0FE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01DF094C-4F88-4FB3-939B-F46907FF0FE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01DF094C-4F88-4FB3-939B-F46907FF0FE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01DF094C-4F88-4FB3-939B-F46907FF0FE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26E7643B-4E5C-4B5D-87AA-C5C26B66A46A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26E7643B-4E5C-4B5D-87AA-C5C26B66A46A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26E7643B-4E5C-4B5D-87AA-C5C26B66A46A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26E7643B-4E5C-4B5D-87AA-C5C26B66A46A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F501F12-9F5A-4992-86B9-A2F6233AAB2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F501F12-9F5A-4992-86B9-A2F6233AAB2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F501F12-9F5A-4992-86B9-A2F6233AAB2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F501F12-9F5A-4992-86B9-A2F6233AAB2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A78D502-C47D-4F82-BCEF-A755E4E34FC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A78D502-C47D-4F82-BCEF-A755E4E34FC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A78D502-C47D-4F82-BCEF-A755E4E34FC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A78D502-C47D-4F82-BCEF-A755E4E34FC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{890DB50B-646E-41B1-B9EA-825D91E34CAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{890DB50B-646E-41B1-B9EA-825D91E34CAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{890DB50B-646E-41B1-B9EA-825D91E34CAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{890DB50B-646E-41B1-B9EA-825D91E34CAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C4B5DA9-5F67-4888-B216-F23C09C56A7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C4B5DA9-5F67-4888-B216-F23C09C56A7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C4B5DA9-5F67-4888-B216-F23C09C56A7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C4B5DA9-5F67-4888-B216-F23C09C56A7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5B1BD10-C225-47BC-835F-8BD5883CB9CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5B1BD10-C225-47BC-835F-8BD5883CB9CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5B1BD10-C225-47BC-835F-8BD5883CB9CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5B1BD10-C225-47BC-835F-8BD5883CB9CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{415EF20E-7B1B-481F-A357-3C55A59DF4B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{415EF20E-7B1B-481F-A357-3C55A59DF4B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{415EF20E-7B1B-481F-A357-3C55A59DF4B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{415EF20E-7B1B-481F-A357-3C55A59DF4B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52595A45-09E5-482C-A5DF-4B31AAAA7B3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52595A45-09E5-482C-A5DF-4B31AAAA7B3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52595A45-09E5-482C-A5DF-4B31AAAA7B3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52595A45-09E5-482C-A5DF-4B31AAAA7B3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CAC46C2-440C-466E-83FC-C1E9CB644591}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CAC46C2-440C-466E-83FC-C1E9CB644591}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CAC46C2-440C-466E-83FC-C1E9CB644591}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CAC46C2-440C-466E-83FC-C1E9CB644591}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EF4C4AD8-BF25-4DB6-A5B1-D5195B18FD14} = {A77A3FF9-3554-4F44-ADC3-643013E54826}
+		{01DF094C-4F88-4FB3-939B-F46907FF0FE1} = {A3CB63F8-5556-44A2-826B-1663B9E3C2D9}
+		{26E7643B-4E5C-4B5D-87AA-C5C26B66A46A} = {242998F7-2694-42E0-9A22-7036CCBC8C5D}
+		{4F501F12-9F5A-4992-86B9-A2F6233AAB2E} = {242998F7-2694-42E0-9A22-7036CCBC8C5D}
+		{3A78D502-C47D-4F82-BCEF-A755E4E34FC4} = {A3CB63F8-5556-44A2-826B-1663B9E3C2D9}
+		{A3CB63F8-5556-44A2-826B-1663B9E3C2D9} = {D4F7C3FA-F37C-4948-97F8-512E562A65D6}
+		{242998F7-2694-42E0-9A22-7036CCBC8C5D} = {D4F7C3FA-F37C-4948-97F8-512E562A65D6}
+		{890DB50B-646E-41B1-B9EA-825D91E34CAF} = {98E4713C-3482-43FA-B56D-583E47D9F9F5}
+		{8C4B5DA9-5F67-4888-B216-F23C09C56A7A} = {242998F7-2694-42E0-9A22-7036CCBC8C5D}
+		{A5B1BD10-C225-47BC-835F-8BD5883CB9CF} = {242998F7-2694-42E0-9A22-7036CCBC8C5D}
+		{415EF20E-7B1B-481F-A357-3C55A59DF4B4} = {A3CB63F8-5556-44A2-826B-1663B9E3C2D9}
+		{52595A45-09E5-482C-A5DF-4B31AAAA7B3A} = {242998F7-2694-42E0-9A22-7036CCBC8C5D}
+		{1CAC46C2-440C-466E-83FC-C1E9CB644591} = {242998F7-2694-42E0-9A22-7036CCBC8C5D}
+	EndGlobalSection
+EndGlobal
