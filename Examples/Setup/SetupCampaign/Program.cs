@@ -16,12 +16,12 @@ namespace SetupCampaign
          * A campaign only needs to be setup once. After the initial setup you
          * can send that campaign as many times as you would like.
          * 
-         * Content and subscriptions can be reused accross multiple campaigns,
+         * Content and subscriptions can be reused across multiple campaigns,
          * so there is no need to recreate these over and over again if you do
          * not want to do so.
          * 
-         * Please review the various contants before you run this code and 
-         * fill in the needed items with appropreate values.
+         * Please review the various constants before you run this code and 
+         * fill in the needed items with appropriate values.
          */
 
         #region Account Info
@@ -102,8 +102,8 @@ namespace SetupCampaign
         private static Content CreateContent(T70Context context)
         {
             /*
-             * Content provides a grouping mechanisim that can be used to 
-             * hold multiple translations for a signel campaign.
+             * Content provides a grouping mechanism that can be used to 
+             * hold multiple translations for a single campaign.
              */
             var contentRepo = context.Repository<Content>(new {AccountId = ACCOUNT_ID});
 
