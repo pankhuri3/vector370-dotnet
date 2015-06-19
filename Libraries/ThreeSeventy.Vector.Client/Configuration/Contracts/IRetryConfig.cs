@@ -3,7 +3,7 @@
 namespace ThreeSeventy.Vector.Client
 {
     /// <summary>
-    /// Details about the retry policy configuration for errored requests.
+    /// Details about the retry policy configuration for failed requests.
     /// </summary>
     public interface IRetryConfig
     {
@@ -34,7 +34,7 @@ namespace ThreeSeventy.Vector.Client
         TimeSpan MaxInterval { get; set; }
 
         /// <summary>
-        /// How often (in miliseconds) we should attempt to retry.
+        /// How often (in milliseconds) we should attempt to retry.
         /// </summary>
         /// <remarks>
         /// For incremental, and exponential policies this value is the base value.
