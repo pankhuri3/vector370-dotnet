@@ -65,11 +65,11 @@ namespace ThreeSeventy.Vector.Client
         public TimeSpan Timeout
         {
             get { return (TimeSpan)this["timeout"]; }
-            set { this["timeone"] = value; }
+            set { this["timeout"] = value; }
         }
 
         /// <summary>
-        /// Determins how we should attempt to retry errors.
+        /// Determines how we should attempt to retry errors.
         /// </summary>
         [ConfigurationProperty("retryPolicy")]
         internal RetryStrategyElement InnerRetryPolicy
